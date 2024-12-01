@@ -35,7 +35,7 @@ export class Circle implements Figure {
     public radius: number,
   ) {
     if (radius <= 0) {
-      throw new Error('Invalid triangle sides');
+      throw new Error('Invalid circle radius');
     }
   }
 
@@ -55,7 +55,7 @@ export class Rectangle implements Figure {
     public height: number,
   ) {
     if (width <= 0 || height <= 0) {
-      throw new Error('Invalid triangle sides');
+      throw new Error('Invalid rectangle dimensions');
     }
   }
 
